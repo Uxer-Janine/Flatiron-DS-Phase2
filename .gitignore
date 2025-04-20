@@ -1,0 +1,41 @@
+# Ignore Jupyter notebook checkpoints
+**/.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Ignore SQLite database files
+*.sqlite
+*.db
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore hidden files from VS Code, JetBrains IDEs, etc.
+.vscode/
+.idea/
+
+# Ignore environment files (be cautious—only if you're not tracking your envs!)
+.env
+*.env
+.venv/
+env/
+ENV/
+venv/
+
+# Ignore large data files
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.zip
+*.tar.gz
+
+# Ignore hidden .git folders in subprojects (prevents submodule issues)
+**/.git/
+
+# Ignore Jupyter runtime files
+.jupyter/
